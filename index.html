@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PlezierigFit - fitness voor 55-plussers en neurodiverse mensen. Grote letters, duidelijke stappen, rustige oefeningen.">
+  <meta name="theme-color" content="#1b5e20">
+  <title>PlezierigFit - Bewegen met plezier</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a href="#hoofd" class="skip-link">Direct naar de inhoud</a>
+
+  <header class="app-header">
+    <div class="header-inner">
+      <a href="#/" class="logo" aria-label="PlezierigFit home">
+        <span class="logo-mark" aria-hidden="true">🌿</span>
+        <span class="logo-text">Plezierig<span class="logo-accent">Fit</span></span>
+      </a>
+      <nav class="hoofd-nav" aria-label="Hoofdmenu">
+        <a href="#/" data-nav="home">🏠 Start</a>
+        <a href="#/oefeningen" data-nav="oefeningen">💪 Oefeningen</a>
+        <a href="#/sessie" data-nav="sessie">⏱️ Sessie</a>
+        <a href="#/voortgang" data-nav="voortgang">📊 Voortgang</a>
+        <a href="#/instellingen" data-nav="instellingen">⚙️ Instellingen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="hoofd" class="hoofd" tabindex="-1">
+    <!-- Views worden hier door JavaScript ingevuld -->
+  </main>
+
+  <div id="live-region" class="visually-hidden" aria-live="polite" role="status"></div>
+
+  <footer class="app-footer">
+    <p>PlezierigFit — bewegen op jouw manier. Bij pijn, duizeligheid of twijfel: stop en raadpleeg je huisarts.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/programmas.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
